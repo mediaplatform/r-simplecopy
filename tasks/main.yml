@@ -1,0 +1,7 @@
+---
+# tasks file for r-simplecopy
+- name: Copy the file to destination
+  copy:
+    src: "{{ simplecopy_source_path }}/{{ simplecopy_source_file }}"
+    dest: "{{ simplecopy_destination_path }}/{{ simplecopy_destination_file }}"
+    mode: 0755
