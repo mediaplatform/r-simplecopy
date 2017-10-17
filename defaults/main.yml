@@ -1,6 +1,6 @@
 ---
 # defaults file for r-simplecopy
-simplecopy_source_path: 
-simplecopy_source_file:
-simplecopy_destination_path:
-simplecopy_destination_file:
+  simplecopy_source_path: 'deploy'
+  simplecopy_source_file: 'boot-application.jar'
+  simplecopy_destination_path: '/usr/local/bin'
+  simplecopy_destination_file: 'boot-application.jar'
